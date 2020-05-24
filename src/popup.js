@@ -59,10 +59,10 @@ export default class Popup {
         }
 
         // show
-        this.parent.style.opacity = 1;
+        this.parent.style.display = 'flex';
     }
 
     hide() {
-        this.parent.style.opacity = 0;
+        this.parent.style.display = 'none';
     }
 }
